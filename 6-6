@@ -1,0 +1,9 @@
+void setup(){
+  size(500,500);
+  stroke(0,255,0); //팬의 색깔
+  strokeWeight(16); // 팬의 두깨
+}
+void draw(){
+  if(mousePressed)
+  line(pmouseX,pmouseY,mouseX,mouseY);
+}
