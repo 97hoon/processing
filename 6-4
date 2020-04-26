@@ -1,0 +1,16 @@
+void setup(){
+  size(1000,1000);
+}
+void draw(){
+  translate(mouseX,mouseY);
+  fill(255,255,255);
+  ellipse(0, 0, 120, 100);
+  fill(255,0,255);
+  ellipse(-40, -60, 30, 64);
+  ellipse(+40, -60, 30, 64);
+  fill(255,255,0);
+  ellipse(-20, -40, 15, 10);
+  ellipse(+20, -40, 15, 10);
+  fill(0);
+  arc(0, 0, 90, 30, 0, PI);
+} //개구리 모양 도형
