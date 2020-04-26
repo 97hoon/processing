@@ -1,0 +1,9 @@
+void setup(){
+  size(800,300);
+  textSize(128);
+}
+int i;
+void draw(){
+  background(0); // 까만색 배경색
+  text("andong", i=i+1,200); //텍스트 오른쪽으로 이동
+}
