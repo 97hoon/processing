@@ -1,0 +1,9 @@
+void setup(){
+  size(400,400);
+  fill(255,0,0); //
+}
+int i;
+void draw(){
+  ellipse(200,i,150,100);
+  i=i+1 //도형내려오는 속도
+}
